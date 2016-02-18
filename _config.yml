@@ -1,0 +1,38 @@
+######################
+# jekyll settings
+
+
+#######################
+#  book meta info
+
+title:     Cascading Style Sheets
+subtitle:  Designing for the Web
+edition:   Third Edition
+year:      2005
+
+## note: use an authors array (lets you use your own separator e.g. br or and or comma as needed
+authors:
+- Håkon Wium Lie
+- Bert Bos
+
+
+########
+# more settings
+
+collections:
+  chapters:
+      output: false
+
+markdown: kramdown
+
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false

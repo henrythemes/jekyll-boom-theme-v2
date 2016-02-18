@@ -1,0 +1,49 @@
+/* the front cover; this code is probably not very reusable by other books */
+
+div.frontcover { 
+  
+  page: cover; 
+
+  img {
+    position: absolute;
+    width: 7in; height: 9.25in;
+    left: 0; top: 0;
+    z-index: -1;
+  }
+
+  h1 {
+    position: absolute;
+    left: 2cm; top: 1cm;
+    color: white;
+    font-size: 44pt;
+    font-weight: normal;
+  }
+
+  h2 {
+    position: absolute;
+    right: 0; top: 5cm;
+    color: black;
+    background: white;
+    font-size: 16pt;
+    font-weight: normal;
+    padding: 0.2em 5em 0.2em 1em;
+    letter-spacing: 0.15em;
+  }
+
+  h3 {
+    position: absolute;
+    left: 2cm; top: 7cm;
+    color: white;
+    font-size: 24pt;
+    font-weight: normal;
+  }
+
+  p {
+    position: absolute;
+    left: 2cm; bottom: 1.5cm;
+    font-size: 24pt;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
